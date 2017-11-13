@@ -2,4 +2,8 @@
 
 module.exports = class User {
 
-}
+  getFriends() {
+    return [];
+  }
+
+};

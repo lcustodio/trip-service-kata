@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Kata for a legacy code hands-on session. The objective is to write tests and refactor the given legacy code.",
   "scripts": {
-    "test": "mocha",
+    "test": "jasmine",
     "coverage": "istanbul cover _mocha"
   },
   "repository": {
@@ -20,7 +20,11 @@
   "homepage": "https://github.com/sandromancuso/trip-service-kata",
   "devDependencies": {
     "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0",
     "mocha": "^2.3.4",
     "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "monet": "^0.8.10"
   }
 }
